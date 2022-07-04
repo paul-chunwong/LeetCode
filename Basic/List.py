@@ -6,9 +6,6 @@ print("-------------------------------------------------------------------------
 thisList = ["apple", "banana", "cherry"]
 print(thisList)
 
-# Check the length of the List
-print(len(thisList))
-
 # Using List constructor to create List
 thislist = list(("apple", "banana", "cherry"))  # note the double round-brackets
 print(thislist)
@@ -17,6 +14,14 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 print(thislist[1])
 
+# Check the length of the List
+print(len(thisList))
+
+# Check if str exist in the List
+thislist = ["apple", "banana", "cherry"]
+if "apple" in thislist:
+    print("Yes, 'apple' is in the fruits list")
+
 # Get the number of times the value "cherry" appears in the list
 fruits = ['apple', 'banana', 'cherry']
 print(fruits.count("cherry"))
@@ -24,6 +29,11 @@ print(fruits.count("cherry"))
 # Get the index with the given item
 fruits = ['apple', 'banana', 'cherry']
 print(fruits.index("cherry"))
+
+# Get the max/min element in the list
+myList = [1,2,5,4]
+print(max(myList))
+print(min(myList))
 
 print("--------------------------------------------------------------------------- List Slicing")
 
@@ -64,11 +74,6 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 thislist[1:3] = ["watermelon"]
 print(thislist)
-
-# Check if str exist in the List
-thislist = ["apple", "banana", "cherry"]
-if "apple" in thislist:
-    print("Yes, 'apple' is in the fruits list")
 
 print("------------------------------------------------------------------------- List Adding")
 
@@ -168,12 +173,6 @@ print(list3)
 thislist = ["apple", "banana", "cherry"]
 tropical = ["mango", "pineapple", "papaya"]
 thislist.extend(tropical)
-print(thislist)
-
-# myList.extend() can also combine different iterable object (tuples, sets, dictionaries etc.) with the list
-thislist = ["apple", "banana", "cherry"]
-thistuple = ("kiwi", "orange")
-thislist.extend(thistuple)
 print(thislist)
 
 # Copy by for loop
