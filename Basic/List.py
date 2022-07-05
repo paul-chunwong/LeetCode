@@ -90,7 +90,7 @@ print(thislist)
 print("-------------------------------------------------------------------------- List Remove")
 
 # Removes given item from the List
-thislist = ["apple", "banana", "cherry"]
+thislist = ["apple", "banana", "cherry", "banana"]
 thislist.remove("banana")
 print(thislist)
 
