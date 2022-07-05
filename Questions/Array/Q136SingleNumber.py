@@ -31,6 +31,7 @@ def singleNumber(self, nums: List[int]) -> int:
             return nums[i]
         i = i + 2
 
+
 """
 Runtime: O(n)
 """
