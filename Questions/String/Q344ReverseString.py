@@ -18,3 +18,8 @@ from typing import List
 
 def reverseString(s: List[str]) -> None:
     s.reverse()
+
+
+"""
+#1) Reverse the list so that all str elements will be reversed
+"""
