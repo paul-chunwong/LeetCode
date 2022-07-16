@@ -53,4 +53,5 @@ print(isPalindrome("A man, a plan, a canal: Panama"))
 
 """
 Need to consider the case where all non-alphanumeric should be removed before checking the two strings
+Also need to consider the space between the words
 """
