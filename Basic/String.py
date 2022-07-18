@@ -1,6 +1,8 @@
 # Get the character at position 1 of the string
 a = "Hello, World!"
 print(a[1])
+a[1] = a[2]
+print(a)
 
 # Loop the string
 for x in "aaa":
