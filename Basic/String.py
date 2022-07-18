@@ -1,8 +1,10 @@
 # Get the character at position 1 of the string
 a = "Hello, World!"
 print(a[1])
-a[1] = a[2]
-print(a)
+
+# WRONG!! Can not modify string like this, must convert to list using list(str) then modify element.
+# a[1] = a[2]
+# print(a)
 
 # Loop the string
 for x in "aaa":
