@@ -7,9 +7,7 @@
 
 def checkIPValidity(addressIP):
     # Write your code here
-    list = addressIP.split(".")
-    print(list)
-    print(type(list))
+    list = addressIP.split(".")      # -> ["255","3","2","256"]
     for i in list:
         if int(i) < 0 or int(i) > 255:
             return False
