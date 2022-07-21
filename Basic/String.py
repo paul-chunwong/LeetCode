@@ -3,8 +3,9 @@ a = "Hello, World!"
 print(a[1])
 
 # WRONG!! Can not modify string like this, must convert to list using list(str) then modify element.
-# a[1] = a[2]
+# a[1] = a[2] # Wrong!
 # print(a)
+
 
 # Loop the string
 for x in "aaa":
@@ -76,3 +77,7 @@ print(txt.count("apple"))
 # Find the position of "welcome" in the string:
 txt = "Hello, welcome to my world."
 print(txt.find("welcome"))
+
+# Convert str to list:
+a = "Hello"
+print(list(a))  # "Hello" -> ['H', 'e', 'l', 'l', 'o']
