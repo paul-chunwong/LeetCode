@@ -25,3 +25,7 @@ def firstUniqChar(s: str) -> int:
         if s.count(s[i]) == 1:
             return i
     return -1
+
+"""
+Use count method to check the char and see if it only appears once in the string
+"""
