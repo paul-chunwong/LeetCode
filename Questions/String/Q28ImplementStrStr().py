@@ -25,3 +25,7 @@ Output: -1
 
 def strStr(haystack: str, needle: str) -> int:
     return haystack.find(needle)
+
+"""
+Use default string method to find if the given smaller str appears in the bigger str
+"""
