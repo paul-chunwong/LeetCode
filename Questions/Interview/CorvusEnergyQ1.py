@@ -3,32 +3,12 @@
 
 
 # Paul Wong
-# length = 7
-# index = 3
+# Given the length of the list
+# We can use binary search to find the missing number
+# [1, 2, 3, 4, 5, 6, 7]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[1, 2, 3, 4, 5, 6, 7]
-
-
-# output is int
+# output is an int
 def find_missing_number(myList):
     if myList[0] != 0:
         return 0
