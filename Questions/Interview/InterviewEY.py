@@ -48,6 +48,7 @@ print("This is the amount you need to pay per person: $" + str(round(result,2)))
 
 
 
+
 str = 'Hello World!'
 print(str[2:5])
 
