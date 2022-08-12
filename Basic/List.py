@@ -144,10 +144,16 @@ thislist = ["banana", "Orange", "Kiwi", "cherry"]
 thislist.sort(key=str.lower)
 print(thislist)
 
-# Reverse the List
+# Reverse the List    -> will reverse the original list
 thislist = ["banana", "Orange", "Kiwi", "cherry"]
 thislist.reverse()
 print(thislist)
+
+# Reverse the List   -> without reverse the original list
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+newList = thislist[::-1]
+print(newList)
+
 
 print("-------------------------------------------------------------------------- List Copy")
 
