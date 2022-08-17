@@ -149,7 +149,7 @@ thislist = ["banana", "Orange", "Kiwi", "cherry"]
 thislist.reverse()
 print(thislist)
 
-# Reverse the List   -> without reverse the original list
+# Reverse the List   -> without reverse the original list (More Common!)
 thislist = ["banana", "Orange", "Kiwi", "cherry"]
 newList = thislist[::-1]
 print(newList)
