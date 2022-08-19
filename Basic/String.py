@@ -81,3 +81,12 @@ print(txt.find("welcome"))
 # Convert str to list:
 a = "Hello"
 print(list(a))  # "Hello" -> ['H', 'e', 'l', 'l', 'o']
+
+
+print("------------------------------- Char Modify")
+char = 'a'
+print(char)
+char = ord(char)
+char = char + 1
+char = chr(char)
+print(char)
