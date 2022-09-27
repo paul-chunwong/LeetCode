@@ -37,4 +37,4 @@ def countPrimes(n: int) -> int:
         j = j + 1
     return count-1
 
-print(countPrimes(50000))
+print(countPrimes(1000))
