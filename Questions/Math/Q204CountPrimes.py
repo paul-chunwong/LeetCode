@@ -14,7 +14,7 @@ Example 3:
 Input: n = 1
 Output: 0
 """
-
+# Not Fast!
 def checkPrime(num: int, primeDict:{}) -> bool:
     i = 2
     while i < num/2+1:
