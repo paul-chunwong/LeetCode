@@ -188,3 +188,9 @@ list2 = [1, 2, 3]
 for x in list2:
     list1.append(x)
 print(list1)
+
+print("-------------------------------------------------------------------------- Special Methods")
+# Get all possible combinations for the array
+from itertools import permutations
+perm = permutations([1,8,3,2])
+print(list(perm))
